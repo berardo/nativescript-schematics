@@ -10,7 +10,7 @@ import * as ts from 'typescript';
 
 import { Node } from "./ast-utils";
 
-class FileNotFoundException extends Error {
+export class FileNotFoundException extends Error {
   constructor(fileName: string) {
     const message = `File ${fileName} not found!`;
     super(message);

@@ -8,6 +8,10 @@ export interface Schema {
      */
     sourceDir?: string;
     /**
+     * The path of the App_Resources directory.
+     */
+    appResourcesDir?: string;
+    /**
      * Create a minimal app (empty template, no theme or routing).
      */
     minimal?: boolean;

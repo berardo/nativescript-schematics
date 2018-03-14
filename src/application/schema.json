@@ -12,8 +12,13 @@
     "sourceDir": {
       "type": "string",
       "description": "The path of the source directory.",
-      "default": "app",
+      "default": "src",
       "alias": "sd"
+    },
+    "appResourcesDir": {
+      "type": "string",
+      "description": "The path of the App_Resources directory.",
+      "alias": "ard"
     },
     "minimal": {
       "type": "boolean",
